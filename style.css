@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.tlo {
+    position: absolute;
+    background-image: url(img/10d.jpg); 
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.pogoda {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.wyszukiwarka {
+    border-radius: 50px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input {
+    padding: 20px;
+    background: transparent;
+    border: 0px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+input:focus {
+    border: 10px;
+}
+
+button {
+    background: transparent;
+    border: 0px;
+    border-radius: 50px;
+}
+
+button img {
+    min-width: 20px;
+    max-width: 20px;
+    filter: invert(1);
+}
+
+.informacja {
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255)
+}
+
+.informacja div span {
+    font-weight: bold;
+}
+
+#ikona img {
+    width: 80px;
+}
+
+#miasto {
+    font-size: 28px;
+}
+
+#temperatura {
+    font-size: 36px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
