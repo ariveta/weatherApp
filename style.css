@@ -10,7 +10,7 @@ body {
 
 .tlo {
     position: absolute;
-    background-image: url(img/10d.jpg); 
+    background-image: url(10d.jpg); 
     background-size: cover;
     background-position: center center;
     height: 100vh;
