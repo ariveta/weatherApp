@@ -46,7 +46,7 @@ szukaj.addEventListener('click', function() {
         zachmurzenie.innerHTML = `Zachmurzenie: <span>${clouds}%<span>`
         blad.innerHTML = ``
         document.querySelector('.informacja').style=`background-color: rgba(0, 0, 0, 0.5);`;
-        document.querySelector('.tlo').style=`background-image:url(img/${icon}.jpg)`;
+        document.querySelector('.tlo').style=`background-image:url(${icon}.jpg)`;
     })
 
     //Obsługa błędnych danych
