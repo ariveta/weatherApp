@@ -53,9 +53,9 @@ szukaj.addEventListener('click', function() {
     .catch(err => {
         if(szukam.value == "") {
             alert('Wpisz miasto')
-        } else
-        {
-            blad.innerHTML = `<span>Brak wyników<span>`
+        }
+        else {
+            blad.innerHTML = `Brak wyników dla `+ szukam.value
             miasto.innerHTML= ``
             temperatura.innerHTML = ``
             cisnienie.innerHTML = ``
