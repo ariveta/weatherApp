@@ -64,6 +64,7 @@ szukaj.addEventListener('click', function() {
             wiatr.innerHTML = ``
             zachmurzenie.innerHTML = ``
             ikona.innerHTML = ``
+             document.querySelector('.informacja').style=`background-color: rgba(0, 0, 0, 0.5);`;
         }
     })
 })
