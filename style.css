@@ -10,11 +10,21 @@ body {
 
 .tlo {
     position: absolute;
-    background-image: url(10d.jpg); 
+    background-image: url(img/10d.jpg); 
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    animation: zoom 10s infinite alternate;
 }
+
+@keyframes zoom {
+    0% {
+      background-size: 100% 100%;
+    }
+    100% {
+      background-size: 110% 110%;
+    }
+  }
 
 .pogoda {
     padding: 20px;
@@ -71,7 +81,7 @@ button img {
 }
 
 #temperatura {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 footer {
