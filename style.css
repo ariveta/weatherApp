@@ -17,14 +17,29 @@ body {
     animation: zoom 10s infinite alternate;
 }
 
+@media only screen and (max-width: 1200px) { 
+    .tlo {
+        animation: zoom-mobile 10s infinite alternate;
+    }
+}
+
 @keyframes zoom {
     0% {
-      background-size: 100% 100%;
+      background-size: 100% auto ;
     }
     100% {
-      background-size: 110% 110%;
+      background-size: 110% auto ;
     }
   }
+
+@keyframes zoom-mobile {
+    0% {
+      background-size: auto 100%;
+    }
+    100% {
+      background-size: auto 110%;
+    }
+}
 
 .pogoda {
     padding: 20px;
