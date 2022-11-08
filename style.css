@@ -17,7 +17,7 @@ body {
     animation: zoom 10s infinite alternate;
 }
 
-@media only screen and (max-width: 1300px) { 
+@media only screen and (max-width: 768px) { 
     .tlo {
         animation: zoom-mobile 10s infinite alternate;
     }
@@ -25,10 +25,10 @@ body {
 
 @keyframes zoom {
     0% {
-      background-size: 100% auto ;
+      background-size: 100% 100%;
     }
     100% {
-      background-size: 110% auto ;
+      background-size: 110% 110%;
     }
   }
 
