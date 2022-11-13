@@ -25,7 +25,7 @@ function wiatr(x) {
         return "północno-wschodni";
     } else if(x>67.5 && x<=112.5) {
         return "wschodni";
-    } else if(x>112.5 ** x<=157.5) {
+    } else if(x>112.5 && x<=157.5) {
         return "południowo-wschodni";
     } else if(x>157.5 && x<= 202.5) {
         return "południowy";
