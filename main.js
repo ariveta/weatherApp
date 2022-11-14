@@ -19,7 +19,7 @@ function celcjusze(cel) {
 }
 
 function wiatr(x) {
-    if(x>0 && x<=22.5 || x>337.5 && x<=360) {
+    if(x>=0 && x<=22.5 || x>337.5 && x<=360) {
         return "północny";
     } else if(x>22.5 && x<=67.5) {
         return "północno-wschodni";
